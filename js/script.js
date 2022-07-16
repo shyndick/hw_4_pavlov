@@ -118,7 +118,6 @@
 // }
 // console.log(arr2);
 
-// arr.sort();
 // arr.reverse();
 // console.log(arr);
 
@@ -136,14 +135,18 @@
 
 // 10. Найдите сумму элементов массива между двумя нулями (первым и последним нулями в массиве). Если двух нулей нет в массиве, то выведите ноль. В массиве может быть более 2х нулей. Пример массива: [48,9,0,4,21,2,1,0,8,84,76,8,4,13,2] или [1,8,0,13,76,8,7,0,22,0,2,3,2].
 
-let arr = [48,9,0,4,21,2,1,0,8,84,76,8,4,13,2];
-let firstNull = arr.indexOf(0);
-let secondNull = arr.lastIndexOf(0);
-let sum = 0;
-console.log(firstNull);
-console.log(secondNull);
+// let arr = [48,9,0,4,21,2,1,8,84,76,8,0,4,13,2];
+// let firstNull = arr.indexOf(0);
+// let secondNull = arr.lastIndexOf(0);
+// let sum = 0;
+// console.log(firstNull);
+// console.log(secondNull);
 
-for(let i = firstNull; i < secondNull; i++) {
-    sum += arr[i];
-}
-console.log(sum);
+// for(let i = firstNull; i < secondNull; i++) {
+//     sum += arr[i];
+// }
+
+// if(firstNull == secondNull) {
+//     sum = 0;
+// }
+// console.log(sum);
